@@ -1,9 +1,9 @@
 # Customer Churn Prediction Project
 
-## 📌 Overview
+## 1. Overview
 This project predicts whether a customer will churn using machine learning techniques. The model is trained on customer data and deployed using a Flask API for real-time predictions.
 
-## 🚀 Features
+## 2. Features
 - Data cleaning and preprocessing
 - Handling missing values
 - Feature engineering (encoding)
@@ -14,12 +14,12 @@ This project predicts whether a customer will churn using machine learning techn
 - Flask API deployment
 - Tested using Postman
 - 
-## 🧠 Model Performance
+## 3. Model Performance
 - Accuracy: ~75%
 - Recall (Churn): ~87%
 - Focused on improving recall to detect more churn customers
 
-## 🛠️ Technologies Used
+## 5. Technologies Used
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -27,7 +27,7 @@ This project predicts whether a customer will churn using machine learning techn
 - Joblib
 - Postman
 
-## 📂 Project Structure
+## 6. Project Structure
 churn-project/
 │── main.py
 │── app.py
@@ -37,18 +37,18 @@ churn-project/
 
 ---
 
-## ▶️ How to Run
+## 7. How to Run
 
-### 1. Install dependencies
+### * Install dependencies
 pip install pandas numpy scikit-learn flask joblib
 
-### 2. Train model
+### * Train model
 python main.py
 
-### 3. Run Flask API
+### * Run Flask API
 python app.py
 
-## 🧪 API Testing
+## * API Testing
 http://127.0.0.1:5000/predict
 
 POST request:
@@ -61,7 +61,7 @@ Example JSON:
   "Contract_Two year": 1
 }
 
-## 💡 Key Insights
+## 8. Key Insights
 
 - Customers with lower tenure are more likely to churn, indicating that new customers are at higher risk of leaving.
 - Customers with higher monthly charges show a higher probability of churn.
@@ -69,7 +69,7 @@ Example JSON:
 - Total charges are correlated with tenure, where long-term customers tend to stay and contribute more revenue.
 - Improving recall helped in identifying more potential churn customers, which is important for business retention strategies.
 
-## 📈 Future Improvements
+## 9. Future Improvements
 
 - Improve model performance using advanced algorithms like XGBoost or Gradient Boosting.
 - Perform hyperparameter tuning using GridSearchCV for better optimization.
@@ -79,7 +79,7 @@ Example JSON:
 - Use more real-world datasets to improve generalization.
 - Add real-time data input and monitoring for production-level usage.
 
-  ## 👨‍💻 Author
+  ## 10. Author
 **Sane Hemanth Reddy**
 
 - GitHub: https://github.com/HemanthReddySane
